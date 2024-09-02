@@ -46,7 +46,7 @@ const Landing = () => {
             <HowWorks/>
             {/* <Team/> */}
             <Testimonial/>
-            {/* <Brands/> */}
+            <Brands/>
             </div>
         </>
     );
