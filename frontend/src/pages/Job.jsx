@@ -89,7 +89,7 @@ const Job = () => {
                         </ul>
                     </div>
                     <h4 className="salary">
-                        Salary: <span className="">{job?.jobSalary} TK</span>
+                        Salary: <span className="">{job?.jobSalary} $</span>
                     </h4>
                     <div className="apply">
                         <h3 className="sec-title">To apply</h3>

@@ -413,8 +413,8 @@ const AddJob = () => {
                                         message: "Job description is required",
                                     },
                                     maxLength: {
-                                        value: 2000,
-                                        message: "Too long (max 2000char)",
+                                        value: 20000,
+                                        message: "Too long (max 20000char)",
                                     },
                                     minLength: {
                                         value: 10,

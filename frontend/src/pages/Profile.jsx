@@ -7,8 +7,7 @@ import { GrPowerReset } from "react-icons/gr";
 
 import styled from "styled-components";
 
-import avatar from "../assets/media/avatar.jpg";
-
+import avatar from "../assets/media/LandingPage/avatar2.jpg"
 import { useUserContext } from "../context/UserContext";
 
 import advancedFormat from "dayjs/plugin/advancedFormat";

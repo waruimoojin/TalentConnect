@@ -17,7 +17,7 @@ const Navbar = ({ navbarRef }) => {
                         Dashboard
                     </NavLink>
                     <NavLink className="nav-item" to="/login">
-                        <span className="bg-[#247BF7] text-white px-6 py-2 rounded"> Login</span>
+                        <span className="bg-[#5956e9] text-white px-6 py-2 rounded hover:"> Login</span>
                     </NavLink>
                 </div>
             </div>

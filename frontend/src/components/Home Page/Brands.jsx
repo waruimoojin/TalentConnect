@@ -9,35 +9,36 @@ export default function Brands() {
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
               src="https://www.capgemini.com/fr-fr/wp-content/themes/capgemini2020/assets/images/logo.svg"
-              alt="Transistor"
+              alt="capgemini"
               width={158}
               height={48}
             />
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://avaliance.com/wp-content/uploads/2020/12/logo_ava2.png"
-              alt="Reform"
+              src="https://www.exekutive.biz/rekrute/file/jobOfferLogo/jobOfferId/104553"
+              alt="CGI"
               width={258}
               height={68}
             />
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
               src="https://upload.wikimedia.org/wikipedia/fr/thumb/8/82/Logo_ALTEN.jpg/300px-Logo_ALTEN.jpg"
-              alt="Tuple"
+              alt="Alten"
               width={158}
               height={48}
             />
+            
             <img
               className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
               src="https://www.viseo.com/themes/viseo/images/logo-viseo--mobile.svg"
-              alt="SavvyCal"
+              alt="Viseo"
               width={158}
               height={48}
             />
             <img
               className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src="https://www.sofrecom.com/media/layout/img/sofrecom-meta-logo-small.png"
-              alt="Statamic"
+              src="https://cdn.phenompeople.com/CareerConnectResources/CNEXEMEA/images/header-logo-1665988833003.png"
+              alt="Cnexia"
               width={258}
               height={48}
             />

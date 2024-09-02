@@ -1,31 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/media/logo.png";
-import styled from "styled-components";
+import { RiPhoneFindFill } from "react-icons/ri";
+
 
 const Logo = () => {
     return (
-        <Wrapper>
-            <Link to="/">
-                <img src={logo} alt="Hunter logo" />
-            </Link>
-        </Wrapper>
+                <Link to="/" className="text-2xl font-bold text-[#5956e9] flex items-center gap-2">
+                <RiPhoneFindFill className="inline-block"/>TalentConnect
+                </Link>
+
     );
 };
 
-const Wrapper = styled.div`
-    width: 130%;
-    max-width: 190px;
-    @media screen and (max-width: 600px) {
-        max-width: 100px;
-    }
-    a {
-        text-decoration: none;
-    }
-    img {
-        width: 100%;
-        object-fit: cover;
-    }
-`;
+
 
 export default Logo;
