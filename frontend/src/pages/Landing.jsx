@@ -28,11 +28,7 @@ const Landing = () => {
                             Today!
                         </h1>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Illo perferendis dignissimos eligendi voluptas
-                            exercitationem, eius aut mollitia quasi nisi
-                            voluptatem similique, tempore totam, odit
-                            repellendus non. Dolores eos animi recusandae.
+                        Take the next step in your career with TalentConnect. Explore opportunities, connect with top employers, and land the job you've always dreamed of. Your perfect role is just a click away!
                         </p>
                         <div className="btn-grp">
                             <Link className="btn" to="/all-jobs">
@@ -48,9 +44,9 @@ const Landing = () => {
             <div>
             <PopularCategory/>
             <HowWorks/>
-            <Team/>
+            {/* <Team/> */}
             <Testimonial/>
-            <Brands/>
+            {/* <Brands/> */}
             </div>
         </>
     );

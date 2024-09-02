@@ -5,9 +5,9 @@ const links = [
     { name: 'Meet our leadership', href: '#' },
   ]
   const stats = [
-    { name: 'Offices worldwide', value: '12' },
-    { name: 'Full-time colleagues', value: '300+' },
-    { name: 'Hours per week', value: '40' },
+    { name: 'Offices worldwide', value: '1' },
+    { name: 'Full-time colleagues', value: '100+' },
+    { name: 'Hours per week', value: '20' },
     { name: 'Paid time off', value: 'Unlimited' },
   ]
   
@@ -45,10 +45,9 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="md:text-3xl text-2xl font-bold tracking-tight text-white">How Job Portal Works</h2>
+            <h2 className="md:text-3xl text-2xl font-bold tracking-tight text-white">How TalentConnect Works</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+            TalentConnect begins by having users create detailed profiles—job seekers list their skills and experience, while employers post job openings. The platform then intelligently matches candidates with suitable jobs, offering personalized recommendations. Users can apply for positions directly, and employers can manage applications seamlessly. Built-in messaging tools facilitate communication between both parties, while real-time notifications keep everyone updated. The platform continuously improves its matching process, making it easier to connect the right talent with the right opportunities
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

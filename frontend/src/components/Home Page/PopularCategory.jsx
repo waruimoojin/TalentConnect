@@ -23,7 +23,7 @@ const PopularCategory = () => {
         {
             category.map(({name, id, count}) => (
                 <div key={id}>
-                    <p className="text-lg text-[#18191C]">{name}</p>
+                    <p className="text-lg text-[#247BF7]">{name}</p>
                     <p className="text-sm text-[#767F8C]">{count}</p>
                 </div>
             ))
