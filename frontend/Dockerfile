@@ -6,11 +6,13 @@ WORKDIR /frontend
 RUN npm install -g vite
 # Copier les fichiers de l'application frontend dans le conteneur
 COPY package*.json ./
+COPY . .
+
 
 RUN npm install --save-dev vite
 RUN npm install
 
-COPY . .
+
 
 
 
