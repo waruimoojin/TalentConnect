@@ -8,10 +8,12 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y npm
 # Copier les fichiers de l'application backend dans le conteneur
 COPY package*.json ./
+
+RUN npm install
+
 COPY . .
 
-# Installer les dépendances du backend
-RUN npm install
+
 
 # Exposer le port sur lequel le backend tourne (exemple: 5000)
 EXPOSE 3000
