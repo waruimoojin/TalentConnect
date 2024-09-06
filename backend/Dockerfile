@@ -7,8 +7,8 @@ RUN apt-get update
 RUN apt-get install -y nodejs 
 RUN apt-get install -y npm
 # Copier les fichiers de l'application backend dans le conteneur
-COPY package*.json ./
-COPY . .
+COPY ./backend/package*.json ./
+COPY ./backend .
 
 # Installer les dépendances du backend
 RUN npm install
