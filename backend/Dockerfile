@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get install -y nodejs 
 RUN apt-get install -y npm
 # Copier les fichiers de l'application backend dans le conteneur
-RUN ls -al
+RUN echo "Invalider le cache" && ls -al
 
 COPY package*.json ./
 COPY .env ./
