@@ -12,7 +12,8 @@ COPY . .
 RUN npm install --save-dev vite
 RUN npm install
 
-
+RUN pwd
+RUN ls -a
 
 
 
