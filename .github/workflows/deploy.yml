@@ -3,12 +3,13 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    container:
+      image: node:20.17.0-alpine
     steps:
       # Checkout the repository
       - name: Checkout repository
