@@ -11,6 +11,35 @@ Ce projet utilise [Docker](https://docs.docker.com) et [github packages](https:/
 $ docker pull ghcr.io/waruimoojin/talentconnect/backend:latest
 $ docker pull ghcr.io/waruimoojin/talentconnect/frontend:latest
 ```
+- Installation de `Docker` .
+
+```sh
+#1 Update Packages
+
+
+$ sudo apt update
+$ sudo apt upgrade -y
+
+#2 Install Dependencies
+
+$ sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
+
+#3 Add Docker Repository
+
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+#4 Install Docker
+
+$ sudo apt update
+$ sudo apt install docker-ce -y
+
+#5 Verify Installation
+
+$ sudo systemctl status docker
+
+```
+
 - Run les images docker.
 
 ### Pour le Frontend 
