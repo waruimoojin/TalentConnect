@@ -4,35 +4,27 @@ TalentConnect est le sujet de mon Projet de Fin d'Études (PFE) et a été déve
 
 ## Install
 
-This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
+Ce projet utilise [Docker](https://docs.docker.com) et [github packages](https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages). 
 
-- Clone or download `the project folder` and then unzip the files.
-- go to the root directory of the job-portal client, you can use `cd space folder-name` to change the folder directory.
+- Pull `the packages` .
+```sh
+$ docker pull ghcr.io/waruimoojin/talentconnect/backend:latest
+$ docker pull ghcr.io/waruimoojin/talentconnect/frontend:latest
+```
+- Run les images docker.
 
-## For Frontend 
-- follow the command to run the client site: 
+### Pour le Frontend 
+-la commandes pour demarrer le server: 
 
 ```sh
-$ npm install
-```
-```sh
-$ npm run dev
+$ docker run -d -p 5173:5173 ghcr.io/waruimoojin/talentconnect/frontend:latest
 ```
 
-### For Backend
-- follow the command to run the server site: 
+
+### Pour le Backend
+-la commande pour demarrer le server: 
+
+
 ```sh
-$ npm install
-```
-```sh
-$ npm run dev or nodemon Server.js
-```
-```sh
-$ add a .env file and include the following environment variables
-```
-```
-DB_STRING="your database url"
-COOKIE_SECRET="make a cookie secret"
-COOKIE_NAME="name a cookie name"
-JWT_SECRET="jwt token here"
+$ docker run -d -p 3000:3000 ghcr.io/waruimoojin/talentconnect/backend:latest
 ```
